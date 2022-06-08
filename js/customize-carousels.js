@@ -3,10 +3,12 @@ jQuery(window).load(function () {
 	[...carousels].forEach(function (elem) {
 		let container = elem.querySelector(".elementor-image-carousel-wrapper");
 
-		container.swiper.params.slidesPerView = "auto";
-		container.swiper.params.centeredSlides = true;
-		container.swiper.params.freeMode = true;
-		container.swiper.params.loop = true;
-		container.swiper.update();
+        if (container !== null) {
+    		container.swiper.params.slidesPerView = "auto";
+    		container.swiper.params.centeredSlides = true;
+    		container.swiper.params.freeMode = true;
+    		container.swiper.params.loop = true;
+    		container.swiper.update();
+        }
 	});
 });
