@@ -3,7 +3,7 @@
  * Plugin Name:       Elementor Carousel Auto Width
  * Plugin URI:        https://mklasen.com/plugins/elementor-carousel-auto-width/
  * Description:       Add the auto-width class to your Elementor Image Carousels to activate this plugin
- * Version:           1.1
+ * Version:           1.4
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Marinus Klasen
